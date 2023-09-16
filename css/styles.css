@@ -40,6 +40,27 @@ img {
     height: auto;
 }
 
+
+/* BUTTON */
+.button {
+    padding: 8px 24px;
+    background-color: var(--button-bg-color);
+    border: 0;
+    border-radius: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.button-sign-up {
+    font-size: 15px;
+}
+
+.button-get-started {
+    min-width: 200px;
+    font-size: 20px;
+    padding: 14px 40px;
+}
+
 /* CONTAINER */
 
 .container {
@@ -55,4 +76,110 @@ img {
 
 main {
     flex-grow: 1;
+}
+
+
+/* SITE-HEADER  */
+.site-header {
+    padding-top: 48px;
+    padding-bottom: 85px;
+    background-color: #fff;
+}
+
+.site-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-header__logo {
+    display: block; 
+}
+
+.site-header__img { 
+    width: 120px;
+    height: 32px;
+    object-fit: cover;
+    margin-right: 45px;
+}
+
+.sitenav {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sitenav__list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.sitenav__link {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.toggler-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.login-link {
+    display: block;
+    margin-right: 37px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* HERO */
+.hero {
+    padding-bottom: 235px;
+    background-color: #fff;
+    background-image: url("../img/working_with_computer.svg");
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 500px) top; 
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__info {
+    flex-direction: column;
+}
+
+.hero__heading {
+    margin: 0;
+    margin-top: 55px;
+    color: var(--title-color);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px; /* 112.5% */
+    letter-spacing: -2px;
+}
+
+.hero__text {
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 163.636% */
+    letter-spacing: 0.15px;
 }
