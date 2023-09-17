@@ -29,6 +29,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 15px;
+    font-weight: 500;
     line-height: 26px;
     font-family: "Poppins", "Arial", sans-serif;
     background-color: var(--main-content-bg-color);
@@ -61,6 +62,13 @@ img {
     padding: 14px 40px;
 }
 
+.button-shorten-it {
+    min-width: 190px;
+    padding: 18px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
 /* CONTAINER */
 
 .container {
@@ -76,6 +84,7 @@ img {
 
 main {
     flex-grow: 1;
+    padding-bottom: 60px;
 }
 
 
@@ -183,3 +192,36 @@ main {
     line-height: 36px; /* 163.636% */
     letter-spacing: 0.15px;
 }
+
+
+/* FORM */
+.form {
+    width: 100%;
+    padding: 52px 64px;
+    border-radius: 10px;
+    background-image: url("../img/Path 2.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: translateY(-50%);
+}
+
+.form-inner {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.form__input {
+    width: 780px;
+    padding: 14px 32px;
+    margin-right: 24px;
+    border-radius: 10px;
+    color: var(--title-color);
+    font-size: 20px;
+    font-style: normal;
+    line-height: 36px; /* 180% */
+    letter-spacing: 0.15px;
+    border: 0;
+}
+
